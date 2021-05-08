@@ -1,0 +1,11 @@
+Internal camera parameters
+==========================
+
+The internal camera parameters are stored in camera.txt with the following format:
+
+image_width image_height
+focal_x  0        principal_point_x
+0        focal_y  principal_point_x
+0        0        1
+
+The origin of the coordinate system is in the top left corner of the image.
